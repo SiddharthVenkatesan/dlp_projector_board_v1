@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ddc5b8cb-bde3-4202-8095-d3524a9ee6ad")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 189.23 118.11)
+		(size 80.01 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e588d68-8772-449d-9f34-f9e4727cd568")
+		(property "Sheetname" "Main board"
+			(at 189.23 117.3984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dlp_mainboard.kicad_sch"
+			(at 189.23 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dlp_projection_board_v1"
+				(path "/ddc5b8cb-bde3-4202-8095-d3524a9ee6ad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 20.32)
+		(size 41.91 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc0e722c-cd0d-4885-9b1b-f1398e639ff6")
+		(property "Sheetname" "Display board"
+			(at 217.17 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dlp_displayboard.kicad_sch"
+			(at 217.17 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dlp_projection_board_v1"
+				(path "/ddc5b8cb-bde3-4202-8095-d3524a9ee6ad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 66.04)
+		(size 50.8 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6e37f99-440b-4ed8-bfdf-42a89afa6630")
+		(property "Sheetname" "Optical Module"
+			(at 210.82 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dlp_optical_module.kicad_sch"
+			(at 210.82 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dlp_projection_board_v1"
+				(path "/ddc5b8cb-bde3-4202-8095-d3524a9ee6ad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
