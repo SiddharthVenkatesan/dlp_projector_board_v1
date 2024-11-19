@@ -5,6 +5,7 @@
 	(uuid "ddc5b8cb-bde3-4202-8095-d3524a9ee6ad")
 	(paper "A5")
 	(title_block
+		(title "Lithostepper DLP projector board")
 		(date "2024-11-15")
 	)
 	(lib_symbols)
